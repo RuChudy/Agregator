@@ -4,3 +4,17 @@ GET {{Agregator.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+Post {{Agregator.API_HostAddress}}/api/orders/
+Accept: application/json
+Content-type: application/json
+
+[
+  {
+    "productId": "a-456",
+    "quantity": 5
+  },
+  {
+    "productId": "b-789",
+    "quantity": 42
+  }
+]
