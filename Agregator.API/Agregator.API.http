@@ -1,6 +1,6 @@
 @Agregator.API_HostAddress = http://localhost:5167
 
-GET {{Agregator.API_HostAddress}}/weatherforecast/
+GET {{Agregator.API_HostAddress}}/api/orders/
 Accept: application/json
 
 ###
@@ -14,7 +14,7 @@ Content-type: application/json
     "quantity": 5
   },
   {
-    "productId": "b-789",
+    "productId": "d-789",
     "quantity": 42
   }
 ]
