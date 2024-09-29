@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35309.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agregator.API", "Agregator.API\Agregator.API.csproj", "{C46D84C5-1BF1-4621-9A64-92B085EE87C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.UnitTests", "Test\Ordering.UnitTests.csproj", "{AB4476A3-E00B-4FF5-88C8-9E3DBB5FAC1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C46D84C5-1BF1-4621-9A64-92B085EE87C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C46D84C5-1BF1-4621-9A64-92B085EE87C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C46D84C5-1BF1-4621-9A64-92B085EE87C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4476A3-E00B-4FF5-88C8-9E3DBB5FAC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4476A3-E00B-4FF5-88C8-9E3DBB5FAC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4476A3-E00B-4FF5-88C8-9E3DBB5FAC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4476A3-E00B-4FF5-88C8-9E3DBB5FAC1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
